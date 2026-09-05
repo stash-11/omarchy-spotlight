@@ -4,6 +4,8 @@ A Spotlight-style presentation of the existing Omarchy app launcher and
 command menu. The app library, search model, commands, keyboard handling, and
 launch actions remain part of the original Omarchy menu.
 
+![Spotlight preview](preview.svg)
+
 ## Features
 
 - Spotlight-style menu presentation
