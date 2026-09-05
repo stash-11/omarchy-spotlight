@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stash.menu",
+  "name": "Spotlight",
+  "version": "1.2.0",
+  "author": "Stash",
+  "license": "MIT",
+  "description": "Spotlight-style appearance for the existing Omarchy app launcher and command menu.",
+  "kinds": [
+    "menu",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "menu": "Menu.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Spotlight",
+    "description": "Launches the Omarchy menu",
+    "category": "Compositor",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.menu"
+  }
+}

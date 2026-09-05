@@ -1,0 +1,1 @@
+-- Backdrop blur disabled: the previous compositor setting blurred the entire desktop.
